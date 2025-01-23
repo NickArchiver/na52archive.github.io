@@ -1,0 +1,118 @@
+.what2off  {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;}
+.what2offtest  {width:156px;}
+.what2on {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;background-color:#FF9900;}
+.what2ontext, .what2ontext a  	{font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.what2ontext:hover 	{color:white;}
+.what2offtext, .what2offtext a  {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#ff9900;font-weight:bold;text-decoration:none;}
+.what2offtext:hover 	{color:white;}
+
+
+
+.setup2off  {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;}
+.setup2offtest  {width:156px;}
+.setup2on {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;background-color:#33cc99;}
+.setup2ontext, .setup2ontext a  	{font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.setup2offtext, .setup2offtext a  {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#33cc99;font-weight:bold;text-decoration:none;}
+.setup2texthover a {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.setup2offtext:hover 	{color:white;}
+.setup2ontext:hover 	{color:white;}
+
+
+.have2off  {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;}
+.have2offtest  {width:156px;}
+.have2on {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;background-color:#cc99ff;}
+.have2ontext, .have2ontext a  	{font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.have2offtext, .have2offtext a  {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#cc99ff;font-weight:bold;text-decoration:none;}
+.have2texthover a {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.have2offtext:hover 	{color:white;}
+.have2ontext:hover 	{color:white;}
+
+
+.buy2off  {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;}
+.buy2on {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;background-color:#cc0033;}
+.buy2ontext, .buy2ontext a  	{font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.buy2offtext, .buy2offtext a  {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#cc0033;font-weight:bold;text-decoration:none;}
+.buy2texthover a {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.buy2offtext:hover 	{color:white;}
+.buy2ontext:hover 	{color:white;}
+
+.about2off  {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;}
+.about2offtest  {width:156px;}
+.about2on {width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;background-color:#0066cc;}
+.about2ontext, .about2ontext a  	{font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.about2offtext, .about2offtext a  {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#0066cc;font-weight:bold;text-decoration:none;}
+.about2texthover a {font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;text-decoration:none;}
+.about2offtext:hover 	{color:white;}
+.about2ontext:hover 	{color:white;}
+
+
+
+.navtextlevel3what, .navtextlevel3what a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#ff9900;font-weight:bold;background-color:black;text-decoration:none;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3whatOn,.navtextlevel3whatOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#ff9900;font-weight:bold;background-color:black;text-decoration:none;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3what a:hover {width:136px;text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel3learn,.navtextlevel3learn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#ff9900;font-weight:bold;background-color:black;text-decoration:none;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3learnOn,.navtextlevel3learnOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#ff9900;font-weight:bold;background-color:black;text-decoration:none;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3learn a:hover {width:136px;text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel3buy,.navtextlevel3buy a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:FF0034;font-weight:bold;background-color:black;	padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3buyOn,.navtextlevel3buyOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3buy a:hover {text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel3setup,.navtextlevel3setup a {width:136px;text-decoration:none;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#00CD9C;font-weight:bold;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3setupOn,.navtextlevel3setupOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3setup a:hover {text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel3have,.navtextlevel3have a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#cc99ff;font-weight:bold;background-color:black;text-decoration:none;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3haveOn, .navtextlevel3haveOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3have a:hover {text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel3about,.navtextlevel3about a {width:136px;text-decoration:none;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:#0066cc;font-weight:bold;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3aboutOn,.navtextlevel3aboutOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:12px;color:black;font-weight:bold;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel3about a:hover {text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel4learn,.navtextlevel4learn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:#ff9900;font-weight:bold;font-style:italic;background-color:black;text-decoration:none;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4learnOn,.navtextlevel4learnOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:white;font-weight:bold;font-style:italic;background-color:black;text-decoration:none;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4learn a:hover {width:136px;text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel4buy,.navtextlevel4buy a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:FF0034;font-weight:bold;font-style:italic;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4buyOn,.navtextlevel4buyOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:black;font-weight:bold;font-style:italic;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4buy a:hover {text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel4setup,.navtextlevel4setup a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:#00CD9C;font-weight:bold;font-style:italic;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4setupOn,.navtextlevel4setupOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:black;font-weight:bold;font-style:italic;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4setup a:hover {text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel4have,.navtextlevel4have a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:#9867FE;font-weight:bold;font-style:italic;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4haveOn,.navtextlevel4haveOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:black;font-weight:bold;font-style:italic;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4have a:hover {text-decoration:none;background-color:black;color:white;}
+
+.navtextlevel4inc,.navtextlevel4inc a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:white;font-weight:bold;font-style:italic;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4incOn,.navtextlevel4incOn a {width:136px;font-family:arial,tahoma,verdana,sans-serif;font-size:10px;color:black;font-weight:bold;font-style:italic;background-color:black;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;}
+.navtextlevel4inc a:hover {text-decoration:none;background-color:black;color:white;}
+
+#navform{padding-top:0px;padding-bottom:0px;padding-left:10px;padding-right:10px;}
+.navformbox{width:136px;font-size:10px;color:#a0a0a0;}
+.what2ontester { width:156px;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;background-color:#FF9900; ; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FF3333}
+
+/*
+     FILE ARCHIVED ON 02:29:32 Feb 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:05:44 Dec 04, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 160.453
+  exclusion.robots: 0.147
+  exclusion.robots.policy: 0.135
+  RedisCDXSource: 1.616
+  esindex: 0.01
+  LoadShardBlock: 139.333 (3)
+  PetaboxLoader3.datanode: 88.674 (4)
+  CDXLines.iter: 15.799 (3)
+  PetaboxLoader3.resolve: 300.207 (3)
+  load_resource: 260.679
+*/

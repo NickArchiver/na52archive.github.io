@@ -1,0 +1,864 @@
+.learn, .learn2, .lean3  {
+	background-color : #ff9900; /*ff9900*/
+}
+
+.what, .what2, .what3  {
+	background-color : #ff9900; /*ff9900*/
+}
+
+.buy, .buy2, .buy3 {
+	background-color : #cc0033;
+}
+
+.setup, .setup2, .setup3  {
+	background-color : #33cc99;
+}
+
+.have {
+	background-color : #663399;
+}
+
+.havelight, .havelight2, .havelight3, .have2, .have3   {
+	background-color : #cc99ff;
+}
+
+.havetable {
+	background-color : #F0E0FF;
+}
+
+.havelightgray  {
+	background-color : #cccccc;
+}
+.about, .about2, .about3  {
+	background-color : #0066cc;
+}
+
+.white  {
+	background-color : #ffffff;
+}
+
+.strikethrough
+{
+	text-decoration : line-through;
+}
+
+sup
+{
+	font : small-caps 10px;
+}
+
+.bodyemphasis, .paraheader
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color: #4B4B4B;
+	font-weight: bold;
+}
+
+.bodyemphasis a:link, .paraheader a:link
+{
+	color: #4B4B4B;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.bodyemphasis a:visited, .paraheader a:visited
+{  
+	font-weight: bold;
+	color:#999999;
+	text-decoration: underline;
+}
+
+.bodyemphasis a:hover, .paraheader a:hover , 
+.bodyemphasis a:active, .paraheader a:active  
+{  
+	font-weight: bold;
+	color:#ff9900;
+	text-decoration: underline;
+}
+
+.maincontent
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	font-weight: normal;
+	color:#333333;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:14px;
+}
+
+.maincontent a
+{
+	color: #000033;
+	text-decoration: underline
+}
+
+.maincontent a:visited
+{
+	color: #999999;
+	text-decoration: underline
+}
+
+.maincontent a:hover, .maincontent a:active
+{
+	color: #FF9900;
+	text-decoration: underline
+}
+
+ul#faq li a
+{
+	font-weight: normal;
+	color: #000033;
+	text-decoration: underline
+}
+
+ul#faq li a:visited
+{
+	color: #000033;
+	text-decoration: underline
+}
+
+ul#faq li a:hover, ul#faq li a:active
+{
+	color: #FF9900;
+	text-decoration: underline
+}
+
+.maincontentwhite
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	font-weight: normal;
+	color:#ffffff;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:14px;
+}
+
+.maincontentwhite a , 
+.maincontentwhite a:visited , 
+.maincontentwhite a:hover, 
+.maincontentwhite a:active
+{
+	color: #ffffff;
+	text-decoration: underline
+}
+
+#maincontentwhiteHP a:hover
+{
+    color: #cc3300;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 12px;
+	text-decoration: underline
+}
+
+#maincontentwhiteHP a:active
+{
+    color: #cc3300;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 12px;
+	text-decoration: underline
+}
+
+.tablecontent
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#333333;
+	padding-bottom : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	padding-top : 0px;
+}
+
+.tablecontent a
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	font-weight: normal;
+	color: #000033;
+	text-decoration: underline
+}
+
+.tablecontent a:visited
+{
+	color: #999999;
+	text-decoration: underline
+}
+
+.tablecontent a:hover, .tablecontent a:active
+{
+	color: #FF9900;
+	text-decoration: underline
+}
+
+.buyblueemphasis 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color: #0066cc;
+	font-weight: bold
+}
+
+.havebodyemphasis 
+{  
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#663399;
+	font-weight: bold
+}
+.havebodyemphasis a
+{  
+	color:#cc99ff;
+	font-weight: bold;		
+	text-decoration : underline;
+}
+.havebodyemphasis a:visited
+{  
+	color:##999999;
+	font-weight: bold;
+	text-decoration: underline
+}
+.havebodyemphasis a:hover, .havebodyemphasis a:active
+{
+	color:#cc99ff;
+	font-weight: bold;
+	text-decoration: underline
+}
+
+.buybodyemphasis 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color: #CC0033;
+	font-weight: bold;
+}
+
+.buybodyemphasis a
+{
+	color:#CC0033;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.buybodyemphasis a:visited
+{  
+	color:#999999;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.buybodyemphasis a:hover, .buybodyemphasis a:active  
+{  
+	color:#ff9900;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.setupbodyemphasis
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#33CC99;
+	font-weight: bold;
+}
+
+.setupbodyemphasis a
+{
+	color:#33CC99;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.setupbodyemphasis a:visited
+{  
+	color:#999999;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.setupbodyemphasis a:hover, .setupbodyemphasis a:active  
+{  
+	color:#ff9900;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.whatbodyemphasis
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#ff9900;
+	font-weight: bold;
+}
+
+.whatbodyemphasis a
+{
+	color:#ff9900;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.whatbodyemphasis a:visited
+{  
+	color:#999999;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.whatbodyemphasis a:hover, .whatbodyemphasis a:active  
+{  
+	color:#cc3300;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.storesubheader
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight: bold
+}
+
+.storesubheader a
+{
+	color:#FFFFFF;
+	font-weight: bold;
+	text-decoration: underline
+}
+
+.storesubheader a:visited
+{  
+	color:#CCCCCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.storesubheader a:hover, .storesubheader a:active  
+{  
+	color:#ff9900;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.storepopupheadline 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	color:#FFFFFF;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.storesubhead 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#CC0033;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.cartlightgray  {
+	background-color : #cccccc;
+}
+
+
+.popuptext 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:white;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:14px;
+	padding-right:14px;
+	background-color :#999999;
+}	
+
+.fineprint 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:10px;
+	color:white;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:14px;
+	padding-right:14px;
+	background-color :#999999;
+}	
+.pagenote 
+{
+	font-family:arial,verdana,sans-serif;
+	color: #333333;
+	font-size:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:0px;
+	padding-right:5px;}	
+
+.pagenote a
+{
+    color: #333333;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 10px;
+	text-decoration: underline
+}
+
+.pagenote a:visited
+{
+    color: #999999;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 10px;
+	text-decoration: underline
+}
+
+ .pagenote a:hover,  .pagenote a:active
+{
+    color: #ff9900;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 10px;
+	text-decoration: underline
+}
+	
+.note 
+{
+	font-family:arial,verdana,sans-serif;
+	color: #333333;
+	font-size:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px
+}	
+
+.note a
+{
+    color: #333333;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 10px;
+	text-decoration: underline
+}
+
+.note a:visited
+{
+    color: #999999;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 10px;
+	text-decoration: underline
+}
+
+ .note a:hover,  .note a:active
+{
+    color: #ff9900;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 10px;
+	text-decoration: underline
+}
+
+#notewhiteHP a:hover
+{
+    color: #cc3300;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 10px;
+	text-decoration: underline
+}
+
+
+.notewhite 
+{
+	font-family:arial,verdana,sans-serif;
+	color: #FFFFFF;
+	font-size:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:5px
+}	
+
+.notewhite a
+{
+    color: #FFFFFF;    
+	text-decoration: underline
+}
+
+.notewhite a:visited
+{
+    color: #CCCCCC;    
+	text-decoration: underline
+}
+
+.notewhite a:hover, .notewhite a:active
+{
+    color: #ff9900;    
+	text-decoration: underline
+}
+
+.sidebarteaser, .sidebarteaser a  
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#414141;
+	font-weight:bold;
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:0px;
+	padding-right:0px;
+}
+.sidebarteaser a:visited 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#999999;
+	font-weight:bold;
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:0px;
+	padding-right:0px;
+}
+.sidebarteaser a:hover, sidebarteaser a:active
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#ff9900;
+	font-weight:bold;
+}
+
+.subheader
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color:#000000;
+}
+
+.subheader a
+{
+   	font-family:arial,verdana,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	text-decoration: underline
+}
+
+.mainbodyheadline, .headline 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#5B5B5B;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.buyheadline 
+{
+	font-family:arial,verdana,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#CC0033;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+.red
+{
+    color: #FF0000;    
+    font-family: arial,verdana,sans-serif;
+}
+
+.colheader
+{ 
+	color: #000000;
+	font-family: arial,verdana,sans-serif;
+	font-size: 12px;
+	font-weight: bold
+}
+
+.colheaderwhite
+{ 
+	color: #FFFFFF;
+	font-family: arial,verdana,sans-serif;
+	font-size: 12px;
+	font-weight: bold
+}
+
+
+.colheaderwhite a
+{
+    color: #FFFFFF;    
+    font-family: arial,verdana,sans-serif;
+    font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline
+}
+
+.colheaderwhite a:visited
+{
+    color: #CCCCCC;    
+	font-weight: bold;
+	text-decoration: underline
+}
+
+.colheaderwhite a:hover, .colheaderwhite a:active
+{
+    color: #ff9900;    
+	font-weight: bold;
+	text-decoration: underline
+}
+
+.currency
+{
+	color: #333333;
+	font-family: arial,verdana,sans-serif;
+	font-size: 12px;
+	font-weight: bold
+}
+
+.rowheader
+{
+	color: #000000;
+	font-family: arial,verdana,sans-serif;
+	font-size: 12px;
+	font-weight: bold
+}
+
+.showtitle 
+{  
+	color: #333333;
+	font-family: arial,verdana,sans-serif; 
+	font-size: 12px;
+	font-style: italic
+}
+
+.message, .v2note, .error
+{  
+	color: #ff0000;
+	font-family: arial,verdana,sans-serif; 
+	font-size: 11px;
+	font-style: bold
+}
+
+/* styles for TCO 3.5 & other WL apps */
+
+.tcolightgray { 
+	background-color : #eeeeee; 
+} 
+.greenheader { 
+	font-family:arial,verdana,sans-serif; 
+	font-size:12px; 
+	background-color : #3cb371; 
+	color:#333333; 
+	font-weight: bold 
+} 
+INPUT,SELECT { 
+	font-family:arial,verdana,sans-serif; 
+	font-size:12px; 
+	color:#333333; 
+} 
+.italic { 
+	font-style: italic; 
+} 
+.greyrow { 
+	background-color : #eee; 
+} 
+.success { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:16px; 
+	font-weight: bold; 
+	color:green; 
+} 
+.tablecontentbold { 
+	font-family:arial,verdana,sans-serif; 
+	font-size:12px; 
+	color:#333333; 
+	font-weight: bold 
+} 
+.tcobackground { 
+	background-color : #F0E0FF; 
+}
+
+/* styles for TCO 4.0 */
+
+
+.proginfoerror {margin: 10px 0px;}
+
+table.searchresults tr td {
+	padding: 6px 0;
+}
+
+table.searchresults tr.spacerrow td {
+	padding: 0px;
+}
+
+table #dontmiss tr {padding-bottom:5px;}
+
+/* for program details */
+
+.showcard img {display:block; margin: 10px 0px;}
+
+#upcomingerror{
+	padding: 5px 0;
+}
+
+.showcard_img {
+margin: 5px 5px 0 0;
+}
+
+#progdetails{
+	float: right;
+	text-align: right;
+	padding: 10px 0 0;
+}
+
+#recordbuttons {
+	float: left;
+	padding: 10px 0 0;
+}
+
+#recordbuttons ul,
+#recordbuttons li,
+#recordbuttons ul li {
+	list-style:none;
+	list-style-position:outside;
+	margin:0;
+	padding:0;
+}
+
+#recordbuttons ul li {
+	padding: 0 0 5px 0;
+}
+
+
+/* landing page styles */
+
+div.dailypick img,
+dl.dailypick dt img {
+	display:block; 
+	float:left; 
+	margin-right:10px; 
+	margin-bottom:4px;
+}
+
+#featuredshows_container{
+	padding: 0 0 10px;
+}
+.inputWidth {
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#333333;
+	padding-bottom : 0px;
+	padding-left : 0px;
+	padding-right : 0px;
+	padding-top : 0px;
+	width: 110px;
+}
+
+div.dailypicks {
+	float:left;
+	width: 378px;
+}
+td.tablecontent div div {
+	margin:0;
+	background-image:none;
+}
+td.tablecontent div div.left {
+	float:left;
+	width:50%;
+	
+}
+td.tablecontent div div.right {
+	float:right;
+	width:50%;
+}
+
+td.tablecontent div div.alignright {
+	text-align:right;
+}
+
+/* daily picks LP */
+
+hr {
+	color: #cccccc;
+	background-color: #cccccc;
+	height: 1px;
+	border:none;
+	margin:0 0 .5em 0;
+}
+
+.dailypick dd {
+	margin-left: 130px;
+	padding-bottom: 10px;
+}
+
+.dailypick dt {
+}
+
+.dailypick_list dd {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+.dailypick dt {
+	margin: 0;
+	padding: 0;
+}
+
+/* clear fix (http://www.positioniseverything.net/easyclearing.html)
+-----------------------------------------------------------*/
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {
+	display: inline-table; /* IE/Mac */
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+
+/*
+     FILE ARCHIVED ON 02:28:11 Feb 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:05:44 Dec 04, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 90.433
+  exclusion.robots: 0.166
+  exclusion.robots.policy: 0.152
+  RedisCDXSource: 0.734
+  esindex: 0.011
+  LoadShardBlock: 63.481 (3)
+  PetaboxLoader3.datanode: 79.869 (4)
+  CDXLines.iter: 22.201 (3)
+  load_resource: 74.47
+  PetaboxLoader3.resolve: 44.002
+*/

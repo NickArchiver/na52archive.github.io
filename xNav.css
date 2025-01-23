@@ -1,0 +1,605 @@
+
+/* Navigation
+----------------------------------------------- */
+#nav_holder {
+	float:left;
+	display:inline;
+	width:156px;
+	margin-right:15px;
+	margin-bottom:15px;
+	background-color:#000000;
+}
+#nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	background:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/nav_line.gif) no-repeat 0px 13px;
+	list-style:none;
+	list-style-position:outside;
+	padding:15px 0;
+	margin:0 0 15px 0;
+}
+
+/* for the wrapper, for TCO, from xGlobal.css */
+/*ul#nav {
+	position:absolute;
+	left:0;
+	width:156px;
+	padding:15px 0;
+	margin-bottom:15px;
+	background-color:#000;
+}*/
+
+#nav #whatistivo {
+	padding-top:1px;
+}
+#nav ul,
+#nav li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#nav li.verisign {
+	text-align:center;
+	margin:25px 0 0 0;
+	padding:0;
+}
+#nav li.verisign img{
+	display: block;
+	margin: 0 auto;
+}
+#nav a {
+	display:block;
+	text-decoration: none;
+	padding-left:8px;
+	margin:2px 0;
+	height:20px;
+}
+#nav li li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: bold;
+	height:auto;
+	padding:2px 0;
+	padding-left: 10px;
+	margin:0;
+	list-style:none;
+}
+* html #nav li li a {
+	height:1%;
+}
+#nav li li li a {
+	background-image: url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/nav_notch.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 4px;
+	padding-left: 22px;
+	list-style:none;
+}
+#nav li li li li a {
+	background-image: none;
+	font-style:italic;
+	padding-left: 30px;
+	list-style:none;
+}
+#nav a.selected,
+#nav #whatistivo a.selected,
+#nav #buytivo a.selected,
+#nav #setupsupport a.selected,
+#nav #ihavetivo a.selected,
+#nav #abouttivo a.selected,
+#nav #careers a.selected,
+#nav #contactus a.selected {
+	color:#000000;
+}
+#nav a.selected:hover,
+#nav #whatistivo a.selected:hover,
+#nav #buytivo a.selected:hover,
+#nav #setupsupport a.selected:hover,
+#nav #ihavetivo a.selected:hover,
+#nav #abouttivo a.selected:hover,
+#nav #careers a.selected:hover,
+#nav #contactus a.selected:hover {
+	color:#FFFFFF;
+}
+/*#nav #whatistivo,
+#nav #buytivo,
+#nav #setupsupport,
+#nav #ihavetivo {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/nav_line.gif);
+	background-repeat:no-repeat;
+	background-position: left bottom;
+}*/
+
+/* What is TiVo?
+----------------------------------------------- */
+#nav #whatistivo a {
+	text-indent:-1000px;
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_what2.gif);
+	background-repeat:no-repeat;
+	margin-left:0px;
+}
+#nav #whatistivo a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_what_r2.gif);
+}
+#nav #whatistivo a.selected,
+#nav #whatistivo a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_what_on2.gif);
+}
+#nav #whatistivo li a {
+	text-indent:0;
+	background-image:none;
+	color:#FF9900;
+	margin-left:0px;
+}
+#nav #whatistivo li a:hover {
+	background-image:none;
+	color:#FFFFFF;
+}
+#nav #whatistivo li a.selected,
+#nav #whatistivo li a.selected:hover {
+	background-image:none;
+	background-color:#FF9900;
+}
+
+/* Buy TiVo
+----------------------------------------------- */
+#nav #buytivo a {
+	text-indent:-1000px;
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_buy2.gif);
+	background-repeat:no-repeat;
+	margin-left:0px;
+}
+#nav #buytivo a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_buy_r2.gif);
+}
+#nav #buytivo a.selected,
+#nav #buytivo a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_buy_on2.gif);
+}
+#nav #buytivo li a {
+	text-indent:0;
+	background-image:none;
+	color:#CC0033;
+	margin-left:0px;
+}
+#nav #buytivo li a:hover {
+	background-image:none;
+	color:#FFFFFF;
+}
+#nav #buytivo li a.selected,
+#nav #buytivo li a.selected:hover {
+	background-image:none;
+	background-color:#CC0033;
+}
+
+/* Setup & Support
+----------------------------------------------- */
+#nav #setupsupport a {
+	text-indent:-1000px;
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_setup_s2.gif);
+	background-repeat:no-repeat;
+	margin-left:0px;
+}
+#nav #setupsupport a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_setup_s_r2.gif);
+}
+#nav #setupsupport a.selected,
+#nav #setupsupport a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_setup_s_on2.gif);
+}
+#nav #setupsupport li a {
+	text-indent:0;
+	background-image:none;
+	color:#33CC99;
+	margin-left:0px;
+}
+#nav #setupsupport li a:hover {
+	background-image:none;
+	color:#FFFFFF;
+}
+#nav #setupsupport li a.selected,
+#nav #setupsupport li a.selected:hover {
+	background-image:none;
+	background-color:#33CC99;
+}
+
+/* I Have TiVo
+----------------------------------------------- */
+#nav #ihavetivo a {
+	text-indent:-1000px;
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_have2.gif);
+	background-repeat:no-repeat;
+	margin-left:0px;
+}
+#nav #ihavetivo a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_have_r2.gif);
+}
+#nav #ihavetivo a.selected,
+#nav #ihavetivo a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_have_on2.gif);
+}
+#nav #ihavetivo li a {
+	text-indent:0;
+	background-image:none;
+	color:#9966CC;
+	/*color:#cc99ff;*/
+	margin-left:0px;
+}
+#nav #ihavetivo li a:hover {
+	background-image:none;
+	color:#FFFFFF;
+}
+#nav #ihavetivo li a.selected,
+#nav #ihavetivo li a.selected:hover {
+	background-image:none;
+	background-color:#9966CC;
+	/*background-color:#cc99ff;*/
+}
+
+/* About TiVo
+----------------------------------------------- */
+#nav #abouttivo a {
+	text-indent:-1000px;
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_about_off2.gif);
+	background-repeat:no-repeat;
+	margin-left:0px;
+}
+#nav #abouttivo a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_about_over2.gif);
+}
+#nav #abouttivo a.selected,
+#nav #abouttivo a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/xnav_about_on2.gif);
+}
+#nav #abouttivo li a {
+	text-indent:0;
+	background-image:none;
+	color:#0066cc;
+	margin-left:0px;
+}
+#nav #abouttivo li a:hover {
+	background-image:none;
+	color:#FFFFFF;
+}
+#nav #abouttivo li a.selected,
+#nav #abouttivo li a.selected:hover {
+	background-image:none;
+	background-color:#0066cc;
+}
+
+/* Divider
+----------------------------------------------- */
+#nav li.divider {
+	padding:4px 0 0;
+}
+#nav li.dividerline {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/nav_line.gif);
+	background-repeat:no-repeat;
+	background-position: 0px 2px;
+	padding:5px 0 0;
+}
+
+/* Icon Links
+----------------------------------------------- */
+#nav li.quick_link a {
+	padding-top:0px;
+	text-indent:-1000px;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	height:21px;
+	margin:0;
+}
+
+/* scheduling
+-----------------------*/
+#nav li#scheduling {
+	padding: 7px 0 0;
+}
+
+#nav #scheduling a {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_scheduling.gif);
+}
+#nav #scheduling a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_scheduling_r.gif);
+}
+#nav #scheduling a.selected,
+#nav #scheduling a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_scheduling_on.gif);
+}
+#nav #scheduling li a {
+	background-image:none;
+}
+
+/* rewards
+-----------------------*/
+#nav #rewards a {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_rewards.gif);
+}
+#nav #rewards a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_rewards_r.gif);
+}
+#nav #rewards a.selected,
+#nav #rewards a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_rewards_on.gif);
+}
+#nav #rewards li a {
+	background-image:none;
+}
+
+/* account
+-----------------------*/
+#nav li#account {
+	padding: 0 0 2px;
+}
+
+#nav #account a {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_account.gif);
+}
+#nav #account a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_account_r.gif);
+}
+#nav #account a.selected,
+#nav #account a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/inav_account_on.gif);
+}
+#nav #account li a {
+	background-image:none;
+}
+
+/* Bottom Links
+----------------------------------------------- */
+#nav li.bottom_link a {
+	padding-top:0px;
+	padding-bottom:0px;
+	text-indent:-1000px;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+	height:20px;
+	margin:0 0 0 0;
+}
+
+/* careers
+-----------------------*/
+#nav #careers a {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_career.gif);
+}
+#nav #careers a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_career_r.gif);
+}
+#nav #careers a.selected,
+#nav #careers a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_career_on.gif);
+}
+
+/* contactus
+-----------------------*/
+#nav #contactus a {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_contact.gif);
+}
+#nav #contactus a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_contact_r.gif);
+}
+#nav #contactus a.selected,
+#nav #contactus a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_contact_on.gif);
+}
+
+/* customerservice
+-----------------------*/
+#nav #customerservice a {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_customer.gif);
+}
+#nav #customerservice a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_customer_r.gif);
+}
+#nav #customerservice a.selected,
+#nav #customerservice a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_customer_on.gif);
+}
+
+/* activate
+-----------------------*/
+#nav #activate a {
+	height:35px;
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_activate.gif);
+}
+#nav #activate li a {
+	height:auto;
+}
+#nav #activate a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_activate_r.gif);
+}
+#nav #activate a.selected,
+#nav #activate a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_activate_on.gif);
+}
+
+/* developers
+-----------------------*/
+#nav #developers a {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_developers.gif);
+}
+#nav #developers a:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_developers_r.gif);
+}
+#nav #developers a.selected,
+#nav #developers a.selected:hover {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/bnav_developers_on.gif);
+}
+
+
+/* Fix Nav
+----------------------------------------------- */
+
+/* Bottom Nav --> Fix Nav
+-----------------------*/
+#nav #careers       li a,
+#nav #careers       li a:hover,
+#nav #careers       li a.selected,
+#nav #careers       li a.selected:hover,
+#nav #contactus       li a,
+#nav #contactus       li a:hover,
+#nav #contactus       li a.selected,
+#nav #contactus       li a.selected:hover,
+#nav #customerservice li a,
+#nav #customerservice li a:hover,
+#nav #customerservice li a.selected,
+#nav #customerservice li a.selected:hover,
+#nav #activate        li a,
+#nav #activate        li a:hover,
+#nav #activate        li a.selected,
+#nav #activate        li a.selected:hover,
+#nav #developers      li a,
+#nav #developers      li a:hover,
+#nav #developers      li a.selected,
+#nav #developers      li a.selected:hover {
+	background-image:none;
+}
+
+/* All Nav --> Fix Nav
+-----------------------*/
+#nav #whatistivo      li li a,
+#nav #buytivo         li li a,
+#nav #setupsupport    li li a,
+#nav #ihavetivo       li li a,
+#nav #abouttivo       li li a,
+#nav #careers       li li a,
+#nav #contactus       li li a,
+#nav #customerservice li li a,
+#nav #activate        li li a,
+#nav #developers      li li a {
+	background-image: url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/nav_notch.gif);
+}
+#nav #whatistivo      li li a:hover,
+#nav #buytivo         li li a:hover,
+#nav #setupsupport    li li a:hover,
+#nav #ihavetivo       li li a:hover,
+#nav #abouttivo       li li a:hover,
+#nav #careers       li li a:hover,
+#nav #contactus       li li a:hover,
+#nav #customerservice li li a:hover,
+#nav #activate        li li a:hover,
+#nav #developers      li li a:hover {
+	background-image: url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/nav_notch.gif);
+}
+#nav #whatistivo      li li a.selected,
+#nav #buytivo         li li a.selected,
+#nav #setupsupport    li li a.selected,
+#nav #ihavetivo       li li a.selected,
+#nav #abouttivo       li li a.selected,
+#nav #careers       li li a.selected,
+#nav #contactus       li li a.selected,
+#nav #customerservice li li a.selected,
+#nav #activate        li li a.selected,
+#nav #developers      li li a.selected,
+#nav #whatistivo      li li a.selected:hover,
+#nav #buytivo         li li a.selected:hover,
+#nav #setupsupport    li li a.selected:hover,
+#nav #ihavetivo       li li a.selected:hover,
+#nav #abouttivo       li li a.selected:hover,
+#nav #careers       li li a.selected:hover,
+#nav #contactus       li li a.selected:hover,
+#nav #customerservice li li a.selected:hover,
+#nav #activate        li li a.selected:hover,
+#nav #developers      li li a.selected:hover {
+	background-image: url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/nav/nav_notch.gif);
+}
+#nav #whatistivo      li li li a,
+#nav #buytivo         li li li a,
+#nav #setupsupport    li li li a,
+#nav #ihavetivo       li li li a,
+#nav #abouttivo       li li li a,
+#nav #careers       li li li a,
+#nav #contactus       li li li a,
+#nav #customerservice li li li a,
+#nav #activate        li li li a,
+#nav #developers      li li li a,
+#nav #whatistivo      li li li a:hover,
+#nav #buytivo         li li li a:hover,
+#nav #setupsupport    li li li a:hover,
+#nav #ihavetivo       li li li a:hover,
+#nav #abouttivo       li li li a:hover,
+#nav #careers       li li li a:hover,
+#nav #contactus       li li li a:hover,
+#nav #customerservice li li li a:hover,
+#nav #activate        li li li a:hover,
+#nav #developers      li li li a:hover,
+#nav #whatistivo      li li li a.selected,
+#nav #buytivo         li li li a.selected,
+#nav #setupsupport    li li li a.selected,
+#nav #ihavetivo       li li li a.selected,
+#nav #abouttivo       li li li a.selected,
+#nav #careers       li li li a.selected,
+#nav #contactus       li li li a.selected,
+#nav #customerservice li li li a.selected,
+#nav #activate        li li li a.selected,
+#nav #developers      li li li a.selected,
+#nav #whatistivo      li li li a.selected:hover,
+#nav #buytivo         li li li a.selected:hover,
+#nav #setupsupport    li li li a.selected:hover,
+#nav #ihavetivo       li li li a.selected:hover,
+#nav #abouttivo       li li li a.selected:hover,
+#nav #careers       li li li a.selected:hover,
+#nav #contactus       li li li a.selected:hover,
+#nav #customerservice li li li a.selected:hover,
+#nav #activate        li li li a.selected:hover,
+#nav #developers      li li li a.selected:hover {
+	background-image: none;
+}
+
+
+/* for related links: move back to xGlobal or tivo.css later... */
+
+#related ul,
+#related li,
+#related ul li {
+	list-style:none;
+	list-style-position:outside;
+	margin:0;
+	padding:0;
+}
+
+#related ul li {
+	background-image:url(https://web.archive.org/web/20060202095244im_/http://www.tivo.com/i/4.0/4.0.bullet_arrow_sidebar.gif);
+/*		background-image:url(/web/20060202095244im_/http://www.tivo.com/i/4.0/4.0.bullet_arrow_sidebar2.gif);  */
+	background-repeat:no-repeat;
+	background-position:left top;
+	padding: 0 0 0 14px;
+	margin-bottom: 4px;
+}
+
+#related ul li a {
+	color:#414141;
+	font-weight:bold;
+}
+#related ul li a:visited {
+	color:#999999;
+}
+
+#related ul li a:hover {
+	color:#FF9900;
+}
+
+
+/*
+     FILE ARCHIVED ON 09:52:44 Feb 02, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:05:44 Dec 04, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 97.078
+  exclusion.robots: 0.121
+  exclusion.robots.policy: 0.11
+  RedisCDXSource: 0.634
+  esindex: 0.01
+  LoadShardBlock: 73.33 (3)
+  PetaboxLoader3.datanode: 40.855 (4)
+  CDXLines.iter: 18.547 (3)
+  load_resource: 106.346
+  PetaboxLoader3.resolve: 71.27
+*/

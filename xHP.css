@@ -1,0 +1,153 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#696969;
+	background-image:url(/web/20060109111058im_/http://www.tivo.com/i/0.0/0.0.bg_body.gif);
+	background-repeat:repeat-y;
+	background-position:767px 0;
+	color:#717171;
+	margin:0;
+	padding:0;
+}
+#noflash img {
+	display:block;
+	margin:0;
+	padding:0;
+}
+#footer {
+	font-size:10px;
+	color:#363636;
+	clear:both;
+	margin:0 30px 2em;
+	padding:15px 0 0 0;
+}
+#footer a {
+	color:#000000;
+}
+
+/* new link style... color? */
+/* a,
+.tablecontent a {
+	color:#3F486F;
+	text-decoration:none;
+}
+a:visited,
+.tablecontent a:visited {
+	color:#800080;
+	text-decoration:none;
+}
+.tablecontent ul,
+.tablecontent p {
+	color:#717171;
+}
+a:hover {
+	text-decoration:underline;
+}
+*/
+
+.tablecontent a {
+	color: #000033;
+	text-decoration: underline;
+}
+a:visited,
+.tablecontent a:visited {
+	color: #999999;
+	text-decoration: underline;
+}
+.tablecontent ul,
+.tablecontent p {
+	color:#333333;
+}
+a:hover {
+	color: #FF9900;
+	text-decoration: underline;
+
+}
+.what,
+.what2,
+.what3 {
+	background-color : #FF9900; /*ff9900*/
+}
+td.what {
+	background-image:url(/web/20060109111058im_/http://www.tivo.com/i/0.0/0.0.bg_head.gif);
+	background-repeat:repeat-y;
+}
+td.what div.what {
+	margin:0 14px;
+}
+td.what div.what table {
+	clear:both;
+}
+td.what div.what p {
+	margin-top:0;
+}
+td.what div.what ul {
+	margin:0 0 1em 0;
+	padding:0;
+	list-style:none;
+}
+td.what div.what ul li {
+	margin:0 0 .50em 0;
+	padding:0;
+}
+td.tablecontent div {
+	margin: 13px 16px;
+	background-image:url(/web/20060109111058im_/http://www.tivo.com/i/0.0/0.0.bg_vert_line.gif);
+	background-repeat:repeat-y;
+	background-position:50% 0%;
+}
+td.tablecontent div div {
+	margin:0;
+	background-image:none;
+}
+td.tablecontent div div.left {
+	float:left;
+	width:249px;
+	
+}
+td.tablecontent div div.right {
+	float:right;
+	width:249px;
+}
+
+/* clear fix (http://www.positioniseverything.net/easyclearing.html)
+-----------------------------------------------------------*/
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {
+	display: inline-table; /* IE/Mac */
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+/*
+     FILE ARCHIVED ON 11:10:58 Jan 09, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:05:44 Dec 04, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 108.336 (3)
+  esindex: 0.017
+  exclusion.robots.policy: 0.231
+  load_resource: 181.058
+  cdx.remote: 0.122
+  PetaboxLoader3.datanode: 132.407 (4)
+  exclusion.robots: 0.248
+  captures_list: 154.335
+  CDXLines.iter: 19.493 (3)
+  PetaboxLoader3.resolve: 110.379
+*/
